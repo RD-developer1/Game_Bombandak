@@ -3,10 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "start": "concurrently \"npm run start-server\" \"npm run dev\" --kill-others --kill-others-on-fail",
+    "start": "node api.js && concurrently \"npm run start-server\" \"npm run dev\" --kill-others --kill-others-on-fail",
     "start-server": "node server/index.js",
-    "dev": "vite",
-    "build": "tsc -b && vite build",
+    "dev": "node api.js && vite",
+    "build": "node api.js && tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },

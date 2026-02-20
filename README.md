@@ -1,4 +1,6 @@
-Bombandak NFT Game!
+# Game_Bombandak - Bombandak NFT Game!
+
+Bombandak is a browser-based NFT game built with TypeScript and React (TSX). It features interactive gameplay, real-time state updates, and a modular component-based structure, showcasing clean TypeScript typing and modern frontend development practices.
 
 ## Getting Started
 
